@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<gfx-xform version="1">
+    <input file="F1Race_Tiles7.raw" type="raw" tile-width="6" tile-height="8" width="128" height="126" />
+    <output file="F1Race_Tiles7.inc">
+        <tiles var-name="BGTiles"/>
+        <maps pointers-size="8">	
+	    <map var-name="DarkBlue" left="0" top="0" width="1" height="1"/>  
+	    <map var-name="Sky" left="14" top="1" width="1" height="12"/>  
+	    <map var-name="Left_Dark" left="0" top="1" width="7" height="7"/>   	 
+	    <map var-name="Right_Dark" left="7" top="1" width="7" height="7"/>   	 
+	    <map var-name="Left_Light" left="0" top="8" width="7" height="7"/>   	 
+	    <map var-name="Right_Light" left="7" top="8" width="7" height="7"/>   	 
+	</maps>	
+    </output>
+</gfx-xform>
